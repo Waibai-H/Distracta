@@ -1,19 +1,3 @@
-# 🚫 Distracta
-
-Bloqueador de sites para foco e produtividade — feito em Java.
-
----
-
-## ⚡ Como abrir no IntelliJ IDEA
-
-1. Abra o IntelliJ IDEA
-2. Clique em **File → Open**
-3. Selecione a pasta `distracta` que você baixou
-4. O IntelliJ vai detectar o `pom.xml` automaticamente — clique em **Trust Project**
-5. Aguarde o Maven baixar as dependências (barra de progresso no canto inferior)
-
----
-
 ## ▶️ Como executar
 
 ### Pela primeira vez (menu interativo):
@@ -74,7 +58,7 @@ C:\Users\SeuNome\.distracta\
 
 ---
 
-## 🛣️ Próximos passos (futuro)
+## 🛣️ Próximos passos 
 
 - [ ] Interface gráfica com JavaFX (janela com switch bonito)
 - [ ] Timer Pomodoro (25min foco / 5min pausa)
