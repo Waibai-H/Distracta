@@ -1,27 +1,4 @@
-## ▶️ Como executar
-
-### Pela primeira vez (menu interativo):
-- Abra `Main.java`
-- Clique no ▶️ verde ao lado de `public static void main`
-- Um menu vai aparecer no console do IntelliJ
-
-### Via terminal (depois de buildar):
-```bash
-# Buildar o projeto
-mvn package
-
-# Executar (menu interativo)
-java -jar target/distracta-1.0.0-jar-with-dependencies.jar
-
-# Comandos diretos
-java -jar target/distracta-1.0.0-jar-with-dependencies.jar add youtube.com
-java -jar target/distracta-1.0.0-jar-with-dependencies.jar start
-java -jar target/distracta-1.0.0-jar-with-dependencies.jar list
-java -jar target/distracta-1.0.0-jar-with-dependencies.jar stop
-```
-
 > ⚠️ **No Windows**: execute o terminal como **Administrador** para que o bloqueio funcione.
-> Clique com botão direito no terminal → "Executar como administrador"
 
 ---
 
@@ -29,20 +6,20 @@ java -jar target/distracta-1.0.0-jar-with-dependencies.jar stop
 
 ```
 distracta/
-├── pom.xml                          ← Configuração do Maven (dependências)
+├── pom.xml                         
 └── src/
     └── main/
         └── java/com/distracta/
-            ├── Main.java            ← Ponto de entrada
+            ├── Main.java            
             ├── ui/
-            │   ├── DistractaApp.java   ← Launcher (CLI ou menu)
-            │   └── DistractaCLI.java   ← Comandos do terminal
+            │   ├── DistractaApp.java  
+            │   └── DistractaCLI.java  
             ├── core/
-            │   └── FocusManager.java   ← Lógica principal
+            │   └── FocusManager.java  
             ├── system/
-            │   └── HostsFileManager.java ← Edita o arquivo hosts
+            │   └── HostsFileManager.java 
             └── data/
-                └── ConfigRepository.java ← Salva/carrega configurações
+                └── ConfigRepository.java 
 ```
 
 ---
